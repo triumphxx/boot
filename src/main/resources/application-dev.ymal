@@ -1,5 +1,8 @@
 spring:
   profiles: dev
-
-user:
-  username: wangyupeng
+  datasource:
+    url: jdbc:mysql://localhost:3306/boot
+    data-username: root
+    data-password: ROOT
+    driver-class-name: com.mysql.jdbc.Driver
+    type: type: com.alibaba.druid.pool.DruidDataSource

@@ -6,3 +6,4 @@ spring:
     data-password: ROOT
     driver-class-name: com.mysql.jdbc.Driver
     type: type: com.alibaba.druid.pool.DruidDataSource
+#以上是数据的配置

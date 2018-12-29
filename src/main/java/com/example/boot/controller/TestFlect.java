@@ -21,6 +21,7 @@ public class TestFlect {
             Class testMech = Class.forName("com.example.boot.entity.TestMech");
             Constructor[] arry =testMech.getDeclaredConstructors();
             for (Constructor ary : arry) {
+                System.out.println("ary1");
                 System.out.println("0000");
             }
         } catch (Exception e) {

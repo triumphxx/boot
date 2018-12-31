@@ -22,7 +22,8 @@ public class TestFlect {
             Constructor[] arry =testMech.getDeclaredConstructors();
             for (Constructor ary : arry) {
                 System.out.println("ary1");
-                System.out.println("0000");
+                System.out.println("上传到了github一个项目");
+
             }
         } catch (Exception e) {
             e.printStackTrace();
